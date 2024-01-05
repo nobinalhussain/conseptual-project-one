@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Asul', serif;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color:rgb(78, 77, 77);
+    color: white;
+    padding: 2px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:rgb(31, 30, 30);
+}
+.navbar li{
+    float: right;
+}
+/* hero backgrownd text and img  */
+.hero{
+    background-image: url(../image/herobg.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+}
+.hero h1{
+    color: azure;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    padding-top: 60px;
+}
+#ex{
+    color: red;
+}
